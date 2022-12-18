@@ -15,7 +15,7 @@ def count_elf_calories(file_name):
     return elf_list
 
 if __name__ == '__main__':
-  elf_calories = count_elf_calories('input\d1_p1_input.txt')
+  elf_calories = count_elf_calories('input\d1_input.txt')
   elf_calories.sort(reverse=True)
   total_cal = sum(elf_calories[0:3])
   print(total_cal)
