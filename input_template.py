@@ -7,4 +7,4 @@ def func(file_name):
     return
 
 if __name__ == '__main__':
-  func('input\dX_input.txt')
+    func('input\dX_input.txt')
